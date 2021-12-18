@@ -1,0 +1,92 @@
+#header{
+    background-color: #3dbd99;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header h2{
+    font-family: corbel;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+#nav{
+    width: auto;
+    background-color: none;
+    display: flex;
+    margin-right:30px ;
+}
+
+#nav ol{
+    display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+}
+
+#nav ol li{
+    margin: 10px;
+    background-color: none;
+    padding: 10px;
+    font-family: corbel;
+    font-size: 20px;
+    font-weight: 900;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#tableau{
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: corbel;
+    font-weight: 900;
+    flex-direction: column;
+}
+
+#footer{
+    background-color: #3dbd99;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-family: corbel;
+    font-weight: 500;
+}
+
+#chart{
+    width: 1300px;
+    height: 1000px;
+    margin: 10px;
+}
+
+#brif{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+    height: 50px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+h4{
+    text-align: center;
+    margin: 0px;
+}
